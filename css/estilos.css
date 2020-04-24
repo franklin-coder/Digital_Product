@@ -1,0 +1,310 @@
+
+/* variables */
+:root {
+    --green-color:#7acc2d;
+    --padding: 10px;
+    --font-size: 12px;
+    --font-family: Arial, Helvetica, sans-serif;
+    --white:white;
+    --black-color: #313337;
+    --box: 0px 2px 6px 4px  #c3c3c3;
+}
+
+
+/* aca inicia el csss  */
+
+html, body {
+    font-family: var(--font-family);
+    padding: 0px%;
+    margin: 0px;
+    font-size: var(--font-size);
+    }
+
+    p, label{ 
+        color: var(--black-color);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: var(--font-size);
+    }
+
+
+   
+
+
+
+
+
+/*  aca empieza css en navegador opciones*/
+
+
+.nav {
+    display: flex;
+    background-color: var(--green-color);
+    padding: var(--padding);
+    justify-content: space-between;
+    color: white;}
+
+nav ul {
+    display:flex ;
+    font-size: var(--font-size);
+    list-style: none;}
+
+nav li a {
+     padding: var(--padding);
+    font-size: var(--font-size);
+font-family: Arial, Helvetica, sans-serif;}
+
+
+.nav_option li a {
+    padding: var(--padding);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.nav_option li:hover{
+    color: var(--black-color);;
+    cursor: pointer;
+}
+/* aca termina el navegador opciones  */
+
+
+
+
+
+
+
+/* aca se modifica el logo la imagen que corresponde al logo */
+.imagen_nav img {
+
+    padding-top: var(--padding);;
+      }
+/* aca termina la modificacion del logo  */
+
+
+
+
+
+
+
+
+
+/* aca inicia la seccion principal */
+
+.main_section {
+  padding: 15%;
+  text-align: center;
+  font-size: var(--font-size);
+  color: var(--black-color);
+    
+}
+/* aca termina la seccion principal */
+
+
+
+
+
+
+
+
+
+
+/* aca incia la seccion de productos */
+
+.products {
+    background-image: url(../images/curveo.png);
+    height: 50px;
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+}
+
+.product .content {
+
+    background-color: white;
+    padding: var(--padding);
+    box-shadow: var(--box);
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;}
+
+
+.product {
+    padding: var(--padding);
+    margin-top: -220px;
+    max-width: 300px;}
+
+.imagen_content {
+
+    text-align: center;
+    justify-content: center;}
+
+    .main_button { 
+        background-color: var(--green-color);
+        width: 100%;
+        border-radius: 4px;
+        font-size: var(--font-size);
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        cursor: pointer;
+    }
+
+       
+
+    .main_button:hover {
+        background-color: #62b118;}
+
+/* aca termina la seccion de productos */
+
+
+
+
+
+
+
+
+
+
+    /* aca inicia la section 4 de las menciones */
+
+    .menciones  {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5%;
+        margin: auto;
+        text-align: center;}
+    
+
+    .mencion_uno{        
+        width: 250px;}
+    
+    .imagen_mencion {
+        width: 250px;}
+        
+/* aca termina la seccion de productos */
+
+/* aca inicia la seccionde testimonios */
+
+
+.title_review {
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    padding: var(--padding);
+    margin: 10px;
+    text-align: center;
+    
+}
+ 
+.testimonio_uno {
+    padding: 10px;   
+    box-shadow: var(--box);
+    border-radius: 10px;
+    padding: var(--padding);
+    margin: 10px;
+}
+.imagen_testimonio_uno{
+    max-width: 300px;
+    padding: var(--padding);
+    
+}
+.imagen_testimonio_uno img {
+    border-radius: 10px;
+}
+
+/* aca se acaba la seccion de testimonios */
+
+
+
+/* aca inicia venta  */
+
+
+.container {
+   padding: 10px;
+   margin: 0 auto;
+}
+
+
+}
+/* aca incia la primera columna  */
+.modulo_pago {
+    box-shadow: var(--box); 
+    padding: 10px;
+    
+    }
+
+.col-4 
+{box-shadow: var(--box);
+padding: var(--padding);}
+
+.imagen_formulario {
+    max-width: 150px;
+    margin: auto;}
+
+.row 
+{text-align: center;
+    
+}
+/* aca termina la primera columna  */
+.fore {
+    text-align: initial;
+    padding: 10px;
+    
+    
+}
+
+ /* aca incia la segunda columna  */ 
+ 
+    .modulo_pago {
+    box-shadow: var(--box); 
+    padding: 10px;
+    }
+    .data {
+        margin-top: 10px;
+        width: 100%;
+        height: 35px;
+        border-radius: 2px;
+        border: 1px solid var(--black-color);
+        box-sizing: border-box;
+   }
+
+   .modulo_pago .main_btn {
+
+    width: 97%;
+    padding: var(--padding);
+    box-sizing:border-box ;
+    height: 40px;
+    color: var(--white);
+    background-color: var(--green-color);
+    margin-top: 10px;
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+   }
+
+/* aca finaliza venta  */
+
+
+/* Aca empieza el footer */
+
+
+
+.footer {
+    background-color: var(--black-color);
+    display: flex;
+    color: var(--white);
+    justify-content: space-between;
+    padding: var(--padding);
+    text-align: center;
+    align-items: center;
+    
+}
+
+.footer_dos  a {
+    color: var(--green-color);
+}
+/* aca termina el footer  */
+
+
+

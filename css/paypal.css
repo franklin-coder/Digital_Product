@@ -1,0 +1,18 @@
+body {
+    background-color: var(--black-color);
+color: var(--white);
+padding-top: 18%;
+  }
+
+    .content_paypal {
+        text-align: center;     
+        color: var(--white);
+        
+    }
+
+    .content_paypal a{        
+        color: var(--green-color);
+    }
+    .content_paypal p{        
+        color: var(--white);
+    }

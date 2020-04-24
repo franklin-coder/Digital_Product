@@ -1,0 +1,21 @@
+@media (max-width: 500px) {
+  
+   .main_section {
+        display: flex;
+    }
+    .products {
+
+        display: inherit;
+        height: auto;
+    }
+
+    .product {
+        margin-top: auto;
+    }
+
+    .menciones, .review {
+        display: inherit;
+        
+    }
+} /* 600px es solo un ejemplo */
+    /* Todos nuestros estilos responsive */
